@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-content: center;
   margin-top: 64px;
-  width: 1500px;
+  width: 1111px;
 }
 .header__nav {
   display: flex;
@@ -28,27 +28,42 @@ body {
   padding: 9px 0px 0px 42px;
 }
 .header__nav a {
+  font-family: "Public Sans", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #33323d;
+
   text-decoration: none;
 }
+.header--nav:active {
+  color: #5fb4a2;
+}
+
 .hero {
   display: flex;
   align-items: flex-end;
-  width: 1500px;
+  width: 1111px;
 
   margin: 51px 0px 152px 0px;
+
+  font-family: "Ibarra Real Nova", serif;
 }
 .hero__image {
   background-repeat: no-repeat;
   background-position: center;
-  width: 78vw;
+  width: 1111px;
 }
 
 .hero__item1 {
   width: 445px;
   height: 357px;
   background-color: white;
-  border: 2px solid black;
   position: absolute;
+  margin-left: 3px;
 }
 .hero__item1 p {
   font-weight: bold;
@@ -69,6 +84,10 @@ body {
   color: white;
   align-items: center;
 }
+.item1__link:hover {
+  background-color: #5fb4a2;
+}
+
 .item1__link__down-arrows {
   width: 48px;
   height: 45px;
@@ -78,31 +97,39 @@ body {
   justify-content: center;
 }
 .item1__link span {
+  font-family: "Public Sans", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
   text-align: center;
-  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  text-align: center;
   width: 152px;
 }
 
 .sobre {
   display: flex;
   flex-direction: row;
-  width: 1500px;
+  width: 1111px;
   height: 601px;
   margin-bottom: 50px;
 }
 .sobre img {
-  width: 570px;
-  margin-left: 150px;
+  width: 540px;
 }
 .sobre__sobre-mim {
   display: flex;
   flex-direction: column;
-  margin-left: 200px;
+  margin-left: 111px;
   border-top: 1px solid rgba(51, 50, 61, 0.15);
   border-bottom: 1px solid rgba(51, 50, 61, 0.15);
 }
 
 .sobre__sobre-mim h1 {
+  font-family: "Ibarra Real Nova", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -115,6 +142,7 @@ body {
   padding-bottom: 28px;
 }
 .sobre__sobre-mim p {
+  font-family: "Public Sans", sans-serif;
   width: 430px;
   height: 601px;
   font-weight: normal;
@@ -128,6 +156,7 @@ body {
 }
 
 .sobre__sobre-mim a {
+  font-family: "Public Sans", sans-serif;
   width: 204px;
   height: 48px;
   text-decoration: none;
@@ -136,17 +165,24 @@ body {
   margin: 43px 113px;
   text-align: center;
   padding: 17px 0px;
+  color: #33323d;
+}
+
+.sobre__sobre-mim a:hover {
+  background-color: #203a4c;
+  color: #fafafa;
 }
 
 .contato {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1500px;
+  width: 1111px;
   height: 234px;
   margin-bottom: 100px;
 }
 .contato h1 {
+  font-family: "Ibarra Real Nova", serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 42px;
@@ -156,6 +192,7 @@ body {
   width: 367px;
 }
 .contato a {
+  font-family: "Public Sans", sans-serif;
   width: 204px;
   height: 48px;
   text-decoration: none;
@@ -164,7 +201,13 @@ body {
 
   text-align: center;
   padding: 17px 0px;
+  color: #33323d;
 }
+.contato a:hover {
+  background-color: #33323d;
+  color: #fafafa;
+}
+
 .rodape {
   width: 1500px;
   height: 80px;
@@ -173,7 +216,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 100px;
   padding: 0 165px;
 }
 .rodape__itens {
@@ -191,9 +233,13 @@ body {
   display: flex;
   justify-content: flex-start;
   align-self: flex-start;
-
   list-style-type: none;
 
+ 
+}
+.nav a {
+  
+  font-family: "Public Sans", sans-serif;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
@@ -201,10 +247,8 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
-}
-.nav a {
   text-decoration: none;
-  color: white;
+  
   padding-left: 42px;
 }
 .rodape__itens__sociais a {
