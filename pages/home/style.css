@@ -12,6 +12,7 @@ body {
   margin: 0px 140px 0 180px;
 }
 
+/*********** Start Header ***********/
 .header {
   display: flex;
   justify-content: space-between;
@@ -42,7 +43,12 @@ body {
 .header--nav:active {
   color: #5fb4a2;
 }
-
+/*********** And Header ***********/
+/*
+#
+#
+*/
+/*********** Start Hero ***********/
 .hero {
   display: flex;
   align-items: flex-end;
@@ -74,6 +80,7 @@ body {
   padding: 56px 28px 53px 27px;
   color: #33323d;
 }
+
 .item1__link {
   display: flex;
   flex-direction: row;
@@ -109,6 +116,12 @@ body {
   text-align: center;
   width: 152px;
 }
+/*********** And Hero ***********/
+/*
+#
+#
+*/
+/***********  Start Sobre ***********/
 
 .sobre {
   display: flex;
@@ -172,6 +185,12 @@ body {
   background-color: #203a4c;
   color: #fafafa;
 }
+/*********** And Sobre ***********/
+/*
+#
+#
+*/
+/*********** Start Contato ***********/
 
 .contato {
   display: flex;
@@ -207,6 +226,12 @@ body {
   background-color: #33323d;
   color: #fafafa;
 }
+/*********** And Contato ***********/
+/*
+#
+#
+*/
+/***********  Start Rodape ***********/
 
 .rodape {
   width: 1500px;
@@ -254,3 +279,4 @@ body {
 .rodape__itens__sociais a {
   padding-left: 16px;
 }
+/*********** And Rodape ***********/
